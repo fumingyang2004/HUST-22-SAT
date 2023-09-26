@@ -1,0 +1,46 @@
+I 系统主版面
+输入0：退出程序
+输入1：进入SAT SOLVER
+输入2：进入HANIDOKU GAMES
+
+II SAT SOLVER
+*必须先输入1读取格式正确（后缀为.cnf）的文件
+*必须先输入3后才能输入4
+输入1：读取文件
+输入2：打印文件
+输入3：解决文件
+输入4：保存文件
+输入0：返回上一级
+
+II.i 解决文件
+*输入以下指令选取策略
+输入1：Max Number of Occurance
+输入2：Maximum Positive Number of Occurance
+输入3：MOM
+输入4：MOM-Optimised Version
+
+III HANIDOKU GAMES
+*必须先输入1创建一个游戏
+输入1：创建游戏
+输入2：开始游戏
+输入3：解决游戏
+输入4：保存游戏
+输入0：返回上一级
+
+III.i 创建游戏
+*输入以下指令选取难度
+输入1：EASY
+输入2：NORMAL
+输入3：HARD
+输入4：EXPERT
+输入5：CRAZY
+输入6：INSANE
+输入7：HELL
+输入0：CUSTOM(难度自定义)
+
+III.ii 开始游戏
+输入i j k：在i行第j个位置填数字k
+输入11 i j ：获取第i行第j个位置的正确答案
+输入10  i j ：查看第i行第j个位置的答案是否正确
+输入12（必须先填满）：查看格局答案是否正确
+输入0：退出游戏
